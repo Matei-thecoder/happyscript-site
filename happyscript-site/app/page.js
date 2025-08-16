@@ -120,8 +120,8 @@ fun (x > 0) {
           <pre className="text-sm text-gray-300 overflow-x-auto bg-black/40 p-4 rounded text-sm text-gray-300 overflow-x-auto mb-4">
 {`int x = 10;
 float y = 2.0;
-string z = &quot;Hello &quot;;
-string h = &quot;World!&quot;;
+string z = "Hello ";
+string h = "World!";
 fun (x >= 0) {
     ana (x % 2 == 0) {
         smile(x+y);
