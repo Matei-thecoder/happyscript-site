@@ -120,8 +120,8 @@ fun (x > 0) {
           <pre className="text-sm text-gray-300 overflow-x-auto bg-black/40 p-4 rounded text-sm text-gray-300 overflow-x-auto mb-4">
 {`int x = 10;
 float y = 2.0;
-string z = "Hello ";
-string h = "World!";
+string z = &quot;Hello &quot;;
+string h = &quot;World!&quot;;
 fun (x >= 0) {
     ana (x % 2 == 0) {
         smile(x+y);
@@ -155,14 +155,14 @@ fun (x >= 0) {
         <div className="bg-[#1f0033]/70 p-6 rounded-2xl shadow-md hover:shadow-purple-500/20 transition">
           <h3 className="text-xl font-semibold text-purple-200 mb-3">String Concatenation</h3>
           <p className="text-gray-400 text-sm leading-relaxed">
-            You can concatenate only two strings at a time using the <code>+</code> operator. For example, <code>"hello" + "world"</code> works, but combining a string with a number like <code>"hello" + 1</code> is invalid. This keeps the language simple and type-safe.
+            You can concatenate only two strings at a time using the <code>+</code> operator. For example, <code>&quot;hello&quot; + &quot;world&quot;</code> works, but combining a string with a number like <code>&quot;hello&quot; + 1</code> is invalid. This keeps the language simple and type-safe.
           </p>
         </div>
 
         <div className="bg-[#1f0033]/70 p-6 rounded-2xl shadow-md hover:shadow-purple-500/20 transition">
           <h3 className="text-xl font-semibold text-purple-200 mb-3">Type Safety</h3>
           <p className="text-gray-400 text-sm leading-relaxed">
-            Happyscript enforces strict type safety: you cannot add or concatenate numbers with strings. For example, <code>5 + "hello"</code> is invalid. This helps beginners learn proper type usage and avoids runtime errors.
+            Happyscript enforces strict type safety: you cannot add or concatenate numbers with strings. For example, <code>5 + &quot;hello&quot;</code> is invalid. This helps beginners learn proper type usage and avoids runtime errors.
           </p>
         </div>
         <div className="bg-[#1f0033]/70 p-6 rounded-2xl shadow-md hover:shadow-purple-500/20 transition col-span-full">
@@ -178,7 +178,7 @@ fun (x >= 0) {
               <li><code>print</code> → <code>smile</code></li>
             </ul>
             <p className="mt-2">
-              The choices are intentional: <code>fun</code> and <code>smile</code> reflect the "Happy" theme of the language name. <code>ana</code> and <code>elsa</code> were chosen as an inside joke with a friend when I started coding. This adds a bit of personality and makes learning more fun!
+              The choices are intentional: <code>fun</code> and <code>smile</code> reflect the &quot;Happy&quot; theme of the language name. <code>ana</code> and <code>elsa</code> were chosen as an inside joke with a friend when I started coding. This adds a bit of personality and makes learning more fun!
             </p>
           </div>
         </div>
